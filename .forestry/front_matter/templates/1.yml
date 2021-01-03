@@ -1,4 +1,9 @@
 ---
 label: '1'
 hide_body: true
-fields: []
+fields:
+- name: '1'
+  type: include
+  config: {}
+  template: '1'
+  label: '1'
