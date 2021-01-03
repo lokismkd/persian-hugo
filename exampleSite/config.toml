@@ -4,29 +4,29 @@ languageCode = "en-us"
 languageName = "En"
 paginate = "5"
 theme = "persian"
-title = "Persian"
+title = "Lokismk"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.main]]
-name = "Privacy Policy"
-url = "privacy-policy"
-weight = 5
+name = "Home"
+url = "/"
+weight = 1
 [[menu.main]]
-name = "Contact"
-url = "contact"
-weight = 4
+name = "About"
+url = "about"
+weight = 2
 [[menu.main]]
 name = "Category"
 url = "categories/nature/"
 weight = 3
 [[menu.main]]
-name = "About"
-url = "about"
-weight = 1
+name = "Contact"
+url = "contact"
+weight = 4
 [[menu.main]]
-name = "Home"
-url = "/"
-weight = 2
+name = "Privacy Policy"
+url = "privacy-policy"
+weight = 5
 [outputs]
 home = ["HTML", "RSS", "json"]
 [params]
